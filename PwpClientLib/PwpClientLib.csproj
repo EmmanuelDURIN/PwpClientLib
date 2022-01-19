@@ -43,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DemandeDossierLogement\Fichier.cs" />
+    <Compile Include="DemandeDossierLogement\RequeteAjoutJustificatif.cs" />
     <Compile Include="DemandeDossierLogement\Utilisateur.cs" />
     <Compile Include="DemandeDossierLogement\Guichet.cs" />
     <Compile Include="Hash\HashMaker.cs" />
