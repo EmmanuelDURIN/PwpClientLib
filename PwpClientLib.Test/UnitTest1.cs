@@ -9,6 +9,8 @@ namespace PwpClientLib.Test
     [TestMethod]
     public void TestMethod1()
     {
+      //HttpClient client = new HttpClient { BaseAddress = new Uri("http://...") };
+
     }
   }
 }

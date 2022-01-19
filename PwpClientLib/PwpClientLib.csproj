@@ -31,6 +31,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
@@ -42,12 +45,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DemandeDossierLogement\ClientDemandeDossierLogement.cs" />
     <Compile Include="DemandeDossierLogement\Fichier.cs" />
+    <Compile Include="DemandeDossierLogement\ReponseAjoutJustificatif.cs" />
     <Compile Include="DemandeDossierLogement\RequeteAjoutJustificatif.cs" />
     <Compile Include="DemandeDossierLogement\Utilisateur.cs" />
     <Compile Include="DemandeDossierLogement\Guichet.cs" />
     <Compile Include="Hash\HashMaker.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
