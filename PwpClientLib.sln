@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PwpClientLib", "PwpClientLib\PwpClientLib.csproj", "{24D04955-E1AC-4C27-962D-F8F2D8375709}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PwpClientLib.Test", "PwpClientLib.Test\PwpClientLib.Test.csproj", "{B7ED86FE-8D1A-4048-852A-4DDE5BB9C24A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{24D04955-E1AC-4C27-962D-F8F2D8375709}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24D04955-E1AC-4C27-962D-F8F2D8375709}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24D04955-E1AC-4C27-962D-F8F2D8375709}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24D04955-E1AC-4C27-962D-F8F2D8375709}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7ED86FE-8D1A-4048-852A-4DDE5BB9C24A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7ED86FE-8D1A-4048-852A-4DDE5BB9C24A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7ED86FE-8D1A-4048-852A-4DDE5BB9C24A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7ED86FE-8D1A-4048-852A-4DDE5BB9C24A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EC77BC12-C1B3-4EFC-9FC5-C2C58D2E9ABA}
+	EndGlobalSection
+EndGlobal
