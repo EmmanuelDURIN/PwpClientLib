@@ -75,5 +75,14 @@ namespace PwpClientLib.Test.DemandeDossierLogement
       };
       return requeteAjoutJustificatif;
     }
+    // Inspiration pour faire un test qui envoie un fichier de taille normale
+    // et un fichier trop gros de +20Mo
+    [DataTestMethod]
+    [DataRow("a", "b")]
+    [DataRow(" ", "a")]
+    public void TestMethod1(string value1, string value2)
+    {
+      Assert.AreEqual(value1 + value2, string.Concat(value1, value2));
+    }
   }
 }
